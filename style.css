@@ -1,0 +1,42 @@
+.divHaveTheTestColor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+#btnAddTooArr{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#addColors{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#divHaveTestColor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: chartreuse;
+    z-index: 2;
+}
+
+::selection {
+    background-color: black;
+    color: white;
+}
+
+.continarOfAllColorsPike{
+    display: flex;
+
+}
